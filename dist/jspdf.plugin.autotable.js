@@ -11,7 +11,7 @@
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("jspdf.node.debug"));
+		module.exports = factory(require("jspdf/dist/jspdf.node.debug"));
 	else if(typeof define === 'function' && define.amd)
 		define(["jspdf"], factory);
 	else {
